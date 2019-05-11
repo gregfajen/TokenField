@@ -22,6 +22,7 @@
 		30FDD46B1DCD338400A71652 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		30FDD46D1DCD344100A71652 /* Token.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Token.xib; sourceTree = "<group>"; };
 		30FDD46F1DCD3B8900A71652 /* TokenField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenField.swift; sourceTree = "<group>"; };
+		3748F3ED2287429D00188DF8 /* TokenField.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TokenField.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 				30FDD46B1DCD338400A71652 /* Token.swift */,
 				30FDD46D1DCD344100A71652 /* Token.xib */,
 				30FDD46F1DCD3B8900A71652 /* TokenField.swift */,
+				3748F3ED2287429D00188DF8 /* TokenField.podspec */,
 				30FDD4621DCD321500A71652 /* Info.plist */,
 			);
 			path = TokenField;
