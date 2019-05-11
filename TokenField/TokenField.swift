@@ -543,7 +543,7 @@ extension TokenField: BackspaceTextViewDelegate {
             var tokenDeleted = false
             for token in tokens {
                 if token.highlighted {
-                    let index = tokens.index(of: token)!
+                    let index = tokens.firstIndex(of: token)!
                     delegate?.tokenField(self, didDeleteTokenAtIndex: index)
                     tokenDeleted = true
                     break
