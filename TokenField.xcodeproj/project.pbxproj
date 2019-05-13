@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30FDD4631DCD321500A71652 /* TokenField.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FDD4611DCD321500A71652 /* TokenField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30FDD46A1DCD324F00A71652 /* BackspaceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDD4691DCD324F00A71652 /* BackspaceTextView.swift */; };
 		30FDD46C1DCD338400A71652 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDD46B1DCD338400A71652 /* Token.swift */; };
 		30FDD46E1DCD344100A71652 /* Token.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FDD46D1DCD344100A71652 /* Token.xib */; };
@@ -16,7 +15,6 @@
 
 /* Begin PBXFileReference section */
 		30FDD45E1DCD321500A71652 /* TokenField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TokenField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30FDD4611DCD321500A71652 /* TokenField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenField.h; sourceTree = "<group>"; };
 		30FDD4621DCD321500A71652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FDD4691DCD324F00A71652 /* BackspaceTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackspaceTextView.swift; sourceTree = "<group>"; };
 		30FDD46B1DCD338400A71652 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
@@ -39,6 +37,7 @@
 		30FDD4541DCD321500A71652 = {
 			isa = PBXGroup;
 			children = (
+				30FDD4621DCD321500A71652 /* Info.plist */,
 				30FDD4601DCD321500A71652 /* TokenField */,
 				30FDD45F1DCD321500A71652 /* Products */,
 			);
@@ -55,13 +54,11 @@
 		30FDD4601DCD321500A71652 /* TokenField */ = {
 			isa = PBXGroup;
 			children = (
-				30FDD4611DCD321500A71652 /* TokenField.h */,
 				30FDD4691DCD324F00A71652 /* BackspaceTextView.swift */,
 				30FDD46B1DCD338400A71652 /* Token.swift */,
 				30FDD46D1DCD344100A71652 /* Token.xib */,
 				30FDD46F1DCD3B8900A71652 /* TokenField.swift */,
 				3748F3ED2287429D00188DF8 /* TokenField.podspec */,
-				30FDD4621DCD321500A71652 /* Info.plist */,
 			);
 			path = TokenField;
 			sourceTree = "<group>";
@@ -73,7 +70,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FDD4631DCD321500A71652 /* TokenField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +281,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TokenField/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -307,7 +303,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TokenField/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
